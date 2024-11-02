@@ -161,7 +161,7 @@ Stream Editor
 This command is used to replace a word with another word
 Using SED command we can replace the text without opening the file
 
-Syntax: sed 's/<WordNameYouWantToReplace>/<NewWord>/' <FileName>
+Syntax: sed -i 's/<WordNameYouWantToReplace>/<NewWord>/' <FileName>
 
 66. How to delete the last line in a file?
 $ sed '$d' <FileName>
